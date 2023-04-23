@@ -42,6 +42,36 @@ Part Content of the dataset:
 <img src="img/job.png">
 
 ### JobLinkedin Dataset & JobDetail Dataset**
+These two datasets are collect from [LinkedIn](https://www.linkedin.com/jobs/search/?keywords=python&location=United%20States&trk=guest_job_search_jobs-search-bar_search-submit&redirect=false&position=1&pageNum=0&original_referer=).
+
+**1. JobLinkedin**
+   This dataset has **5,000** records, **4** attributes. This dataset is collecting by searching the job based on five tech jobs mentioned above.
+|Attribute|Description|Type|
+|---|---|---|
+|**title**|Name of Job|TEXT|
+|**company**|Name of Company|TEXT|
+|**detail_url**|Job detail webpage URL|TEXT|
+|**class**|belong to which tech job|TEXT|
+
+Part Content of the dataset:
+
+<img src="img/joblink.png">
+
+**2. JobDetail**
+This dataset has **250** records, **6** attributes. This dataset is collecting by scraping the url provided in JobLinkedin dataset. Every tech class has 50 records which is the first 50 records.
+
+|Attribute|Description|Type|
+|---|---|---|
+|**title**|Name of Job|TEXT|
+|**description**|Detail description of job, may including requirement, job duties, etc.|TEXT|
+|**levels**|Job requirement level|TEXT|
+|**employment_type**|Full-time, Part-time,Internship, etc|TEXT|
+|**job_function**|Job function category|TEXT|
+|**class**|belong to which tech job|TEXT|
+
+Part Content of the dataset:
+
+<img src="img/jobdetail.png">
 
 
 ## How to Run
