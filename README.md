@@ -13,13 +13,19 @@ There **some change** from my HW3. I give up collecting data from [Bureau of Lab
 There are **four datasets** in this project and they are sorted in the sqlite database. Every dataset have a **sample_dataset** which is convenient for other people (like grader) to check or run the code in sample mode.
 
 ### Pglanguage Dataset
-This dataset is collected by [Adzuna API](https://developer.adzuna.com/). This dataset has 10,000 tuples and 9 attributes.
+This dataset is collected by [Adzuna API](https://developer.adzuna.com/). This dataset has **10,000** tuples and **9** attributes.
 The following table is the information of every attribute
 |Attribute|Description|Type|
 |---|---|---|
 |**title**|Name of Job|TEXT|
 |**category**|category of Job|TEXT|
-|**company**|Name of company|TEXT|
+|**company**|Name of Company|TEXT|
+|**location**|Work Location|TEXT|
+|**salary_predict**|Whether having salary information. 1:yes 0:no|TEXT|
+|**salary_max**|Maximum salary of this Job|TEXT|
+|**salary_max**|minimum salary of this Job|TEXT|
+|**detail_url**|Job detail webpage URL|TEXT|
+|**class**|belong to which tech job|Text|
 
 
 ### Jobs Dataset
