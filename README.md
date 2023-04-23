@@ -114,5 +114,11 @@ This python file corresponds to the Jobs dataset and Pglanguage dataset.
    <img src="img/example3.png">
  
 
+
+## Maintainability/Extensibility
+
+- Maintainability: If the input data is update. With small change like change of url, the code is just need to update the url variable and its arguments. With big change like the the change structure of webpage, the code is need to change the part of obtaining tags and sql statement. Moreover, the sample dataset and whole dataset sharing the same request, which is benefit for maintaining and reduce the duplicate code.
+- Extensibility: If we want to add new function, just add new function. It won't break the origin code. And if more information need to be scraping in the origin code, just add new method like "soup.find_all()" to get new information and add them in the data list which I combine all the information need to store in a list. Then store the list to the database. It's easy for extensibility.
+
 ## The Plan of Analysis
 I try to combine the jobDetail dataset and JobLinkedin dataset in the future. And the future analysis plan is to analysis which tech job has more salary and which programming language is more popular currently. Moreover, try to analysis the description of jobs to find out what's the requirements of different tech jobs. I plan to create word cloud to analysis this problem. And there may be other statistical analyses.
