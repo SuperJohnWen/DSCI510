@@ -15,11 +15,11 @@ There are **four datasets** in this project and they are sorted in the sqlite da
 ### Pglanguage Dataset
 This dataset is collected by [Adzuna API](https://developer.adzuna.com/). This dataset has 10,000 tuples and 9 attributes.
 The following table is the information of every attribute
-|| title | category |company|location|salary_predict|salary_max|salary_min|detail_url|class|
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| **Description** | Job name| job category| company name| work location|if having salary information. 1: yes 0:no|max salary of this job|min salary of this job|job detail webpage url|belong to which tech job|
-| **Type** |  TEXT| TEXT |TEXT|TEXT|TEXT|TEXT|TEXT|TEXT|TEXT|
-
+|Attribute|Description|Type|
+|---|---|---|
+|**title**|Name of Job|TEXT|
+|**category**|category of Job|TEXT|
+|**company**|Name of company|TEXT|
 
 
 ### Jobs Dataset
