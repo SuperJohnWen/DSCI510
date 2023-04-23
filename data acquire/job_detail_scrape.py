@@ -121,5 +121,5 @@ if len(sys.argv) == 1:
 if len(sys.argv) == 2 and sys.argv[1] == 'sample':
     data = db_query()
     print("--------------Begin to download sample with 5 records-----------------")
-    download_data(data[0:5], True)
+    download_data(data[5:10], True)
 
