@@ -106,10 +106,12 @@ All the data acquiring .py files in the ```data acquire``` directory.
   
 - **job_api_data.py**
 This python file corresponds to the Jobs dataset and Pglanguage dataset.
+
   - running command ```python job_api_data.py``` to get the whole Jobs dataset or running ```python job_api_data.py sample``` to the sample Jobs dataset and output:
-<img src="img/example2.png">
+   <img src="img/example2.png">
+
   - running command ```python job_api_data.py pglanguage``` to get the whole Pglanguage dataset or running ```python job_api_data.py sample--language``` to get the Pglanguage sample dataset and output:
-<img src="img/example3.png">
+   <img src="img/example3.png">
  
 
 ## The Plan of Analysis
