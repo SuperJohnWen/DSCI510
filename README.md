@@ -16,8 +16,11 @@ There are **four datasets** in this project and they are sorted in the sqlite da
 This dataset is collected by [Adzuna API](https://developer.adzuna.com/). This dataset has **10,000** tuples and **9** attributes. Collecting data by ten programming language mentioned above, every programming keyword has 1,000 records.
 
 The following table is the information of every attribute
+
+<div align="center">
+
 |Attribute|Description|Type|
-|---|---|---|
+|:---:|:---:|:---:|
 |**title**|Name of Job|TEXT|
 |**category**|category of Job|TEXT|
 |**company**|Name of Company|TEXT|
@@ -28,6 +31,7 @@ The following table is the information of every attribute
 |**detail_url**|Job detail webpage URL|TEXT|
 |**class**|belong to which tech job|Text|
 
+</div>
 
 Part Content of the dataset:
 
@@ -47,16 +51,16 @@ These two datasets are collect from [LinkedIn](https://www.linkedin.com/jobs/sea
 - JobLinkedin
 This dataset has **5,000** records, **4** attributes. This dataset is collecting by searching the job based on five tech jobs mentioned above.
 
-<center>
+<div align="center">
 
 |Attribute|Description|Type|
-|---|---|---|
+|:---:|:---:|:---:|
 |**title**|Name of Job|TEXT|
 |**company**|Name of Company|TEXT|
 |**detail_url**|Job detail webpage URL|TEXT|
 |**class**|belong to which tech job|TEXT|
 
-</center>
+</div>
 
 Part Content of the dataset:
 
@@ -65,10 +69,10 @@ Part Content of the dataset:
 - JobDetail
 This dataset has **250** records, **6** attributes. This dataset is collecting by scraping the url provided in JobLinkedin dataset. Every tech class has 50 records which is the first 50 records.
 
-<center>
+<div align="center">
 
 |Attribute|Description|Type|
-|---|---|---|
+|:---:|:---:|:---:|
 |**title**|Name of Job|TEXT|
 |**description**|Detail description of job, may including requirement, job duties, etc.|TEXT|
 |**levels**|Job requirement level|TEXT|
@@ -76,7 +80,7 @@ This dataset has **250** records, **6** attributes. This dataset is collecting b
 |**job_function**|Job function category|TEXT|
 |**class**|belong to which tech job|TEXT|
 
-</center>
+</div>
 
 Part Content of the dataset:
 
