@@ -46,6 +46,9 @@ These two datasets are collect from [LinkedIn](https://www.linkedin.com/jobs/sea
 
 - JobLinkedin
 This dataset has **5,000** records, **4** attributes. This dataset is collecting by searching the job based on five tech jobs mentioned above.
+
+<center>
+
 |Attribute|Description|Type|
 |---|---|---|
 |**title**|Name of Job|TEXT|
@@ -53,12 +56,16 @@ This dataset has **5,000** records, **4** attributes. This dataset is collecting
 |**detail_url**|Job detail webpage URL|TEXT|
 |**class**|belong to which tech job|TEXT|
 
+</center>
+
 Part Content of the dataset:
 
 <img src="img/joblink.png">
 
 - JobDetail
 This dataset has **250** records, **6** attributes. This dataset is collecting by scraping the url provided in JobLinkedin dataset. Every tech class has 50 records which is the first 50 records.
+
+<center>
 
 |Attribute|Description|Type|
 |---|---|---|
@@ -68,6 +75,8 @@ This dataset has **250** records, **6** attributes. This dataset is collecting b
 |**employment_type**|Full-time, Part-time,Internship, etc|TEXT|
 |**job_function**|Job function category|TEXT|
 |**class**|belong to which tech job|TEXT|
+
+</center>
 
 Part Content of the dataset:
 
